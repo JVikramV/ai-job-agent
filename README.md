@@ -27,3 +27,6 @@ Applying to jobs is repetitive and time-consuming. This agent automates the proc
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
+cd frontend
+npm install
+npm run dev
